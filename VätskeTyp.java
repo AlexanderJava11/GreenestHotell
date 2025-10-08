@@ -1,5 +1,9 @@
 package Inlämningsuppgift1;
 
+/*
+Enum som visar vilken vätska växten får / VG delen
+ */
+
 public enum VätskeTyp {
     KRANVATTEN("Kranvatten"),
     MINERALVATTEN("Mineralvatten"),
