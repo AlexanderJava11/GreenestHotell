@@ -7,6 +7,8 @@ Används med polymorfism
 
 public interface Vätskebehov {
     VätskeTyp getVätskeTyp();
+
     double getDagligVätskaLitar();
+
     String getNamn();
 }
