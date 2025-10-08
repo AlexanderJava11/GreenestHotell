@@ -1,5 +1,9 @@
 package Inlämningsuppgift1;
 
+/*
+Palm använder 0.5 liter kranvatten per dag
+ */
+
 public final class Palm extends Plant {
     private static final double LiterPerMeter = 0.5;
 
