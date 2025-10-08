@@ -1,5 +1,9 @@
 package Inlämningsuppgift1;
 
+/*
+Kaktusen använder 0.02 liter mineralvatten per dag
+ */
+
 public final class Kaktus extends Plant {
     private static final double DagligLiter = 0.02;
 
