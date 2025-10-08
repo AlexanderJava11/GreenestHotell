@@ -1,9 +1,9 @@
 package Inlämningsuppgift1;
 
 public enum VätskeTyp {
-    KranVatten("Kranvatten"),
-    MineralVatten("Mineralvatten"),
-    ProteinDryck("Proteindryck");
+    KRANVATTEN("Kranvatten"),
+    MINERALVATTEN("Mineralvatten"),
+    PROTEINDRICK("Proteindryck");
 
     private final String display;
 

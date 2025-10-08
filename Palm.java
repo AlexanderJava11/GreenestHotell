@@ -9,11 +9,11 @@ public final class Palm extends Plant {
 
     @Override
     public VätskeTyp getVätskeTyp() {
-        return VätskeTyp.KranVatten;
+        return VätskeTyp.KRANVATTEN;
     }
 
     @Override
     public double getDagligVätskaLitar() {
-        return LiterPerMeter * getHöjdMeter();
+        return getHöjdMeter() * LiterPerMeter;
     }
 }

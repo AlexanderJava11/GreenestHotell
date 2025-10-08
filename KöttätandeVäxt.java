@@ -10,7 +10,7 @@ public final class KöttätandeVäxt extends Plant {
 
     @Override
     public VätskeTyp getVätskeTyp() {
-        return VätskeTyp.ProteinDryck;
+        return VätskeTyp.PROTEINDRICK;
     }
 
     @Override

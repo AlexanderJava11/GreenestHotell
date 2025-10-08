@@ -9,7 +9,7 @@ public final class Kaktus extends Plant {
 
     @Override
     public VätskeTyp getVätskeTyp() {
-        return VätskeTyp.MineralVatten;
+        return VätskeTyp.MINERALVATTEN;
     }
 
     @Override

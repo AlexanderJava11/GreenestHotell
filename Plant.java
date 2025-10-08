@@ -9,7 +9,7 @@ public abstract class Plant implements Vätskebehov {
             throw new IllegalArgumentException("Namn krävs");
         if (höjdMeter <= 0)
             throw new IllegalArgumentException("Höjd måste vara positiv, inte negativ");
-        this.namn = namn;
+        this.namn = namn.trim();
         this.höjdMeter = höjdMeter;
     }
 
@@ -21,13 +21,5 @@ public abstract class Plant implements Vätskebehov {
         return höjdMeter;
     }
 
-    public void vattna() {
-        double liter = getDagligVätskaLitar();
-        double tillväxt = (liter / 0.1) * 0.01;
-        höjdMeter += tillväxt;
-
-    }
-
-    public abstract double getDagligVätskaLitar();
 }
 
