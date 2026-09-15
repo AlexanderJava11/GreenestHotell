@@ -20,7 +20,7 @@ public class GreenestHotell {
                 new Kaktus("Igge", 0.2),
                 new Palm("Laura", 5.0),
                 new KöttätandeVäxt("Meatloaf", 0.7),
-                new Palm("Olof", 1.0));
+                new Palm("Olof", 2.0));
 
         // Map för att kunna slå ihop växter via namn
         Map<String, Plant> byName = new HashMap<>();
