@@ -6,7 +6,7 @@ Köttätandeväxt använder basliter(0.1) + (PerMeterLiter(0.2) * getHöjdMeter(
 
 public final class KöttätandeVäxt extends Plant {
     private static final double BasLiter = 0.1;
-    private static final double PerMeterLiter = 0.2;
+    private static final double PerMeterLiter = 0.1;
 
     public KöttätandeVäxt(String namn, double höjdMeter) {
         super(namn, höjdMeter);
